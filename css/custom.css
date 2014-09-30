@@ -11,3 +11,7 @@ button {
   margin: 15px;
   border: none;
 }
+
+.white button{
+  color: darkgray;
+}
