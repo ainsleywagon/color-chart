@@ -64,7 +64,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : landscape) {
   .col-md-1 {
-    width: 145px;
+    width: 156px;
     height: 80px;
     border-bottom-right-radius: 39px;
   }
