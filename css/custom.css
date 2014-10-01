@@ -54,4 +54,7 @@ and (orientation : portrait) {
     height: 80px;
     border-bottom-right-radius: 39px;
   }
+  button {
+    font-size: 12px;
+  }
 }
