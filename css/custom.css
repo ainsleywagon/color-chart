@@ -1,17 +1,40 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
 
-body {
-  font-family: 'Karla', sans-serif;
-}
+  body {
+    font-family: 'Karla', sans-serif;
+  }
 
-button {
-  color: white;
-  width: 130px;
-  height: 60px;
-  margin: 15px;
-  border: none;
-}
+  button {
+    color: white;
+    width: 130px;
+    height: 60px;
+    margin: 15px;
+    border: none;
+  }
 
-.white button{
-  color: darkgray;
+  .white button{
+    color: darkgray;
+  }
+
+  /* Set the fixed height of the footer here */
+  #push,
+  #footer {
+    height: 100px;
+  }
+  #footer {
+    background-color: bisque;
+    margin-top: 20px;
+  }
+
+
+
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+
+  .container .credit {
+    margin: 40px 0;
+  a {
+    color: darkgray;
+  }
 }
