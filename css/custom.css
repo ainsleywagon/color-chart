@@ -38,3 +38,9 @@
     color: darkgray;
   }
 }
+
+.col-md-1 {
+    width: 156px;
+    height: 88px;
+    border-bottom-right-radius: 39px;
+}
