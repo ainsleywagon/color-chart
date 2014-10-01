@@ -58,3 +58,17 @@ and (orientation : portrait) {
     font-size: 12px;
   }
 }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .col-md-1 {
+    width: 127px;
+    height: 80px;
+    border-bottom-right-radius: 39px;
+  }
+  button {
+    font-size: 12px;
+  }
+}
