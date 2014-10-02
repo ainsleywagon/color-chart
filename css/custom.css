@@ -40,8 +40,11 @@
 }
 
 .col-md-1 {
-    width: 162px;
+    width: 155px;
     height: 80px;
+    border-bottom-right-radius: 39px;
+    -webkit-border-bottom-right-radius: 39px;
+    -moz-border-bottom-right-radius: 39px;
     border-bottom-right-radius: 39px;
 }
 
