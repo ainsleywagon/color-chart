@@ -30,8 +30,6 @@
     margin-top: 20px;
   }
 
-
-
   /* Custom page CSS
   -------------------------------------------------- */
   /* Not required for template or sticky footer method. */
@@ -83,3 +81,8 @@
       font-size: 12px;
     }
   }
+}
+
+button:focus {outline:none;}
+
+button:hover {box-shadow: 5px 5px 0px #ccc; outline:none;}
