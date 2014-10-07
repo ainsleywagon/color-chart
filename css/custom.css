@@ -79,3 +79,5 @@ and (orientation : landscape) {
     font-size: 12px;
   }
 }
+
+button:focus {outline:none;}
