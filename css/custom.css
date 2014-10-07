@@ -12,6 +12,8 @@
     border: none;
   }
 
+
+
   .white button{
     color: darkgray;
   }
@@ -46,6 +48,7 @@
     -webkit-border-bottom-right-radius: 39px;
     -moz-border-bottom-right-radius: 39px;
     border-bottom-right-radius: 39px;
+
 }
 
 @media only screen
@@ -80,4 +83,5 @@ and (orientation : landscape) {
   }
 }
 
-button:focus {outline:none;}
+
+button:hover {box-shadow: 5px 5px 0px #ccc;}
