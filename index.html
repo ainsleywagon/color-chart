@@ -18,7 +18,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,190 +26,160 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <body>
-    <div class="container">
-
-      <div class="page-header">
-        <h1>Color Chart</h1>
-        <p class="lead">CSS Namespace Colors in Rainbow Order</p>
-      </div>
-
-      <h3>Pinks & Reds</h3>
-      <div class="row">
-        <button style="background-color: peachpuff"class="col-md-1">PeachPuff</button>
-        <button style="background-color: pink"class="col-md-1">Pink</button>
-        <button style="background-color: lightpink"class="col-md-1">Lightpink</button>
-        <button style="background-color: hotpink"class="col-md-1">Hotpink</button>
-        <button style="background-color: deeppink"class="col-md-1">Deeppink</button>
-        <button style="background-color: mediumvioletred"class="col-md-1">MediumVioletRed</button>
-        <button style="background-color: palevioletred"class="col-md-1">PaleVioletRed</button>
-        <button style="background-color: mistyrose"class="col-md-1">MistyRose</button>
-        <button style="background-color: indianred"class="col-md-1">Indianred</button>
-        <button style="background-color: crimson"class="col-md-1">Crimson</button>
-        <button style="background-color: maroon" class="col-md-1">Maroon</button>
-        <button style="background-color: darkred" class="col-md-1">Dark Red</button>
-        <button style="background-color: brown"class="col-md-1">Brown</button>
-        <button style="background-color: firebrick"class="col-md-1">Firebrick</button>
-        <button style="background-color: red"class="col-md-1">Red</button>
-        <button style="background-color: tomato"class="col-md-1">Tomato</button>
-        <button style="background-color: coral"class="col-md-1">Coral</button>
-        <button style="background-color: lightsalmon"class="col-md-1">Lightsalmon</button>
-        <button style="background-color: salmon"class="col-md-1">Salmon</button>
-        <button style="background-color: lightcoral"class="col-md-1">Lightcoral</button>
-        <button style="background-color: darksalmon"class="col-md-1">DarkSalmon</button>
-      </div>
-      <h3>Oranges & Yellows</h3>
-      <div class="row">
-        <button style="background-color: orangered"class="col-md-1">OrangeRed</button>
-        <button style="background-color: darkorange"class="col-md-1">DarkOrange</button>
-        <button style="background-color: orange" class="col-md-1">Orange</button>
-        <button style="background-color: goldenrod"class="col-md-1">Goldenrod</button>
-        <button style="background-color: darkgoldenrod"class="col-md-1">DarkGoldenrod</button>
-        <button style="background-color: palegoldenrod" class="col-md-1">PaleGoldenrod</button>
-        <button style="background-color: lightgoldenrodyellow"class="col-md-1">LightGoldenrodYellow</button>
-        <button style="background-color: lightyellow"class="col-md-1">LightYellow</button>
-        <button style="background-color: lemonchiffon"class="col-md-1">LemonChiffon</button>
-        <button style="background-color: khaki"class="col-md-1">Khaki</button>
-        <button style="background-color: gold"class="col-md-1">Gold</button>
-        <button style="background-color: moccasin"class="col-md-1">Moccasin</button>
-        <button style="background-color: navajowhite"class="col-md-1">NavajoWhite</button>
-        <button style="background-color: sandybrown"class="col-md-1">SandyBrown</button>
-        <button style="background-color: yellow"class="col-md-1">Yellow</button>
-      </div>
-      <h3>Greens</h3>
-      <div class="row">
-        <button style="background-color: yellowgreen"class="col-md-1">YellowGreen</button>
-        <button style="background-color: greenyellow"class="col-md-1">GreenYellow</button>
-        <button style="background-color: lime" class="col-md-1">Lime</button>
-        <button style="background-color: limegreen"class="col-md-1">LimeGreen</button>
-        <button style="background-color: lawngreen"class="col-md-1">LawnGreen</button>
-        <button style="background-color: lightgreen" class="col-md-1">LightGreen</button>
-        <button style="background-color: lightseagreen"class="col-md-1">LightSeaGreen</button>
-        <button style="background-color: mintcream"class="col-md-1">Mintcream</button>
-        <button style="background-color: honeydew"class="col-md-1">Honeydew</button>
-        <button style="background-color: green"class="col-md-1">Green</button>
-        <button style="background-color: forestgreen"class="col-md-1">ForestGreen</button>
-        <button style="background-color: seagreen"class="col-md-1">SeaGreen</button>
-        <button style="background-color: springgreen"class="col-md-1">SpringGreen</button>
-        <button style="background-color: chartreuse"class="col-md-1">Chartreuse</button>
-        <button style="background-color: palegreen"class="col-md-1">PaleGreen</button>
-        <button style="background-color: green"class="col-md-1">Green</button>
-        <button style="background-color: mediumaquamarine"class="col-md-1">MediumAquamarine</button>
-        <button style="background-color: mediumseagreen"class="col-md-1">MediumSeaGreen</button>
-        <button style="background-color: mediumspringgreen"class="col-md-1">MediumSpringGreen</button>
-        <button style="background-color: aquamarine"class="col-md-1">Aquamarine</button>
-        <button style="background-color: teal"class="col-md-1">Teal</button>
-        <button style="background-color: darkcyan"class="col-md-1">DarkCyan</button>
-        <button style="background-color: olive"class="col-md-1">Olive</button>
-        <button style="background-color: darkgreen"class="col-md-1">DarkGreen</button>
-        <button style="background-color: darkolivegreen"class="col-md-1">DarkOliveGreen</button>
-        <button style="background-color: olivedrab"class="col-md-1">OliveDrab</button>
-        <button style="background-color: darkseagreen"class="col-md-1">DarkSeaGreen</button>
-      </div>
-      <h3>Blues</h3>
-      <div class="row">
-        <button style="background-color: aliceblue"class="col-md-1">AliceBlue</button>
-        <button style="background-color: azure"class="col-md-1">Azure</button>
-        <button style="background-color: lavender"class="col-md-1">Lavender</button>
-        <button style="background-color: powderblue" class="col-md-1">PowderBlue</button>
-        <button style="background-color: paleturquoise"class="col-md-1">PaleTurquoise</button>
-        <button style="background-color: turquoise"class="col-md-1">Turquoise</button>
-        <button style="background-color: cyan" class="col-md-1">Cyan</button>
-        <button style="background-color: lightblue"class="col-md-1">LightBlue</button>
-        <button style="background-color: lightcyan"class="col-md-1">LightCyan</button>
-        <button style="background-color: lightskyblue"class="col-md-1">LightSkyBlue</button>
-        <button style="background-color: lightsteelblue"class="col-md-1">LightSteelBlue</button>
-        <button style="background-color: mediumblue"class="col-md-1">MediumBlue</button>
-        <button style="background-color: aqua"class="col-md-1">Aqua</button>
-        <button style="background-color: blue"class="col-md-1">Blue</button>
-        <button style="background-color: cornflowerblue"class="col-md-1">CornflowerBlue</button>
-        <button style="background-color: dodgerblue"class="col-md-1">DodgerBlue</button>
-        <button style="background-color: skyblue"class="col-md-1">SkyBlue</button>
-        <button style="background-color: royalblue"class="col-md-1">RoyalBlue</button>
-        <button style="background-color: cadetblue"class="col-md-1">CadetBlue</button>
-        <button style="background-color: mediumslateblue"class="col-md-1">MediumSlateBlue</button>
-        <button style="background-color: mediumturquoise"class="col-md-1">MediumTurquoise</button>
-        <button style="background-color: midnightblue"class="col-md-1">MidnightBlue</button>
-        <button style="background-color: slateblue"class="col-md-1">SlateBlue</button>
-        <button style="background-color: steelblue"class="col-md-1">SteelBlue</button>
-        <button style="background-color: navy"class="col-md-1">Navy</button>
-        <button style="background-color: midnightblue"class="col-md-1">MidnightBlue</button>
-        <button style="background-color: deepskyblue"class="col-md-1">DeepSkyBlue</button>
-        <button style="background-color: darkturquoise"class="col-md-1">DarkTurquoise</button>
-        <button style="background-color: darkblue"class="col-md-1">DarkBlue</button>
-        <button style="background-color: darkcyan"class="col-md-1">DarkCyan</button>
-        <button style="background-color: darkslategray"class="col-md-1">DarkSlateGray</button>
-      </div>
-      <h3>Purples & Violets</h3>
-      <div class="row">
-        <button style="background-color: lavenderblush"class="col-md-1">LavenderBlush</button>
-        <button style="background-color: thistle"class="col-md-1">Thistle</button>
-        <button style="background-color: plum"class="col-md-1">Plum</button>
-        <button style="background-color: blueviolet"class="col-md-1">BlueViolet</button>
-        <button style="background-color: darkmagenta"class="col-md-1">DarkMagenta</button>
-        <button style="background-color: darkorchid"class="col-md-1">DarkOrchid</button>
-        <button style="background-color: darkviolet"class="col-md-1">DarkViolet</button>
-        <button style="background-color: mediumpurple"class="col-md-1">MediumPurple</button>
-        <button style="background-color: indigo"class="col-md-1">Indigo</button>
-        <button style="background-color: purple"class="col-md-1">Purple</button>
-        <button style="background-color: violet"class="col-md-1">Violet</button>
-        <button style="background-color: orchid"class="col-md-1">Orchid</button>
-        <button style="background-color: mediumorchid"class="col-md-1">MediumOrchid</button>
-        <button style="background-color: fuchsia"class="col-md-1">Fuchsia</button>
-        <button style="background-color: magenta"class="col-md-1">Magenta</button>
-      </div>
-      <h3>Grays</h3>
-      <div class="row">
-        <button style="background-color: darkgray"class="col-md-1">DarkGray</button>
-        <button style="background-color: dimgray"class="col-md-1">DimGray</button>
-        <button style="background-color: silver"class="col-md-1">Silver</button>
-        <button style="background-color: slategray"class="col-md-1">SlateGray</button>
-        <button style="background-color: gainsboro"class="col-md-1">Gainsboro</button>
-        <button style="background-color: gray"class="col-md-1">Gray</button>
-        <button style="background-color: lightgray"class="col-md-1">LightGray</button>
-        <button style="background-color: lightslategray"class="col-md-1">LightSlateGray</button>
-        <button style="background-color: black"class="col-md-1">Black</button>
-      </div>
-      <h3>Whites & Beiges</h3>
-      <div class="row white">
-        <button style="background-color: ghostwhite"class="col-md-1">GhostWhite</button>
-        <button style="background-color: antiquewhite"class="col-md-1">AntiqueWhite</button>
-        <button style="background-color: beige"class="col-md-1">Beige</button>
-        <button style="background-color: bisque"class="col-md-1">Bisque</button>
-        <button style="background-color: blanchedalmond"class="col-md-1">BlanchedAlmond</button>
-        <button style="background-color: ivory"class="col-md-1">Ivory</button>
-        <button style="background-color: linen"class="col-md-1">Linen</button>
-        <button style="background-color: oldlace"class="col-md-1">OldLace</button>
-        <button style="background-color: papayawhip"class="col-md-1">PapayaWhip</button>
-        <button style="background-color: seashell"class="col-md-1">Seashell</button>
-        <button style="background-color: snow"class="col-md-1">Snow</button>
-        <button style="background-color: white"class="col-md-1">White</button>
-        <button style="background-color: whitesmoke"class="col-md-1">WhiteSmoke</button>
-      </div>
-      <h3>Browns</h3>
-      <div class="row">
-        <button style="background-color: brown"class="col-md-1">Brown</button>
-        <button style="background-color: chocolate"class="col-md-1">Chocolate</button>
-        <button style="background-color: peru"class="col-md-1">Peru</button>
-        <button style="background-color: rosybrown"class="col-md-1">RosyBrown</button>
-        <button style="background-color: saddlebrown"class="col-md-1">SaddleBrown</button>
-        <button style="background-color: darkgoldenrod"class="col-md-1">DarkGoldenrod</button>
-        <button style="background-color: wheat"class="col-md-1">Wheat</button>
-      </div>
-
-
-    </div> <!-- /container -->
-
-    <div id="footer">
-      <div class="container">
-        <p class="muted credit">Made in 2014 by <strong><a href="http://ainsleywagoner.com">Ainsley Wagoner</a></strong>.</p>
-      </div>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Color Chart</h1>
+      <p class="lead">CSS Namespace Colors in Rainbow Order</p>
     </div>
+    <div class="h3">Pinks & Reds</div>
+      <div id="pinksandreds" class="row"></div>
+    <div class="h3">Oranges & Yellows</div>
+      <div id="orangesandyellows" class="row"></div>
+    <div class="h3">Greens</div>
+      <div id="greens" class="row"></div>
+    <div class="h3">Blues</div>
+      <div id="blues" class="row"></div>
+    <div class="h3">Purples & Violets</div>
+      <div id="purplesandviolets" class="row"></div>
+    <div class="h3">Grays</div>
+      <div id="grays" class="row"></div>
+    <div class="h3">Whites & Beiges</div>
+      <div id="whitesandbeiges" class="row"></div>
+    <div class="h3">Browns</div>
+      <div id="browns" class="row"></div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <p class="muted credit">Made in 2014 by <strong><a href="http://ainsleywagoner.com">Ainsley Wagoner</a></strong>.</p>
+    </div>
+  </div>
 
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
 </html>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+// Convert from a named color ("Blue") to RGB ("rgb(0,0,255")
+// thanks to http://stackoverflow.com/a/8046813/1024811
+function convertToRGBColor(englishColor) {
+
+    // create a temporary div.
+    var div = $('<div></div>').appendTo("body").css('background-color', englishColor);
+    var computedStyle = window.getComputedStyle(div[0]);
+
+    // get computed color.
+    var computedColor = computedStyle.backgroundColor;
+
+    // cleanup temporary div.
+    div.remove();
+
+    // done.
+    return computedColor;
+    // The above returns "rgb(R, G, B)" on IE9/Chrome20/Firefox13.
+};
+
+// And to convert "rgb(R, G, B)" to #RRGGBB you can use:
+// thanks to http://stackoverflow.com/a/8046813/1024811
+function convertRGBDecimalToHex(rgb)
+{
+    var regex = /rgb *\( *([0-9]{1,3}) *, *([0-9]{1,3}) *, *([0-9]{1,3}) *\)/;
+    var values = regex.exec(rgb);
+    if(values.length != 4)
+    {
+        return rgb; // fall back to what was given.
+    }
+    var r = Math.round(parseFloat(values[1]));
+    var g = Math.round(parseFloat(values[2]));
+    var b = Math.round(parseFloat(values[3]));
+    return "#"
+        + (r + 0x10000).toString(16).substring(3).toUpperCase()
+        + (g + 0x10000).toString(16).substring(3).toUpperCase()
+        + (b + 0x10000).toString(16).substring(3).toUpperCase();
+}
+</script>
+
+<script>
+function addColors(colors, id) {
+    $.each(colors, function(index, color) {
+      // create a button
+      var button = '<button class="col-md-1">' + color + '</button>';
+      console.log(button);
+
+      // add it to the DOM
+      $(id).append(button);
+    })
+  }
+
+var pinksandreds = [ 'MistyRose', 'LightPink', 'Pink', 'Hotpink', 'DeepPink', 'MediumVioletRed', 'PaleVioletRed', 'Red', 'Crimson', 'Maroon', 'DarkRed', 'Brown', 'Firebrick', 'IndianRed', 'LightCoral', 'Salmon', 'Tomato', 'Coral', 'DarkSalmon', 'Lightsalmon', 'PeachPuff'],
+  orangesandyellows = [ 'OrangeRed', 'DarkOrange', 'Orange', 'DarkGoldenrod', 'Goldenrod', 'Khaki', 'PaleGoldenrod', 'LightGoldenrodYellow', 'SandyBrown', 'NavajoWhite', 'Moccasin', 'LemonChiffon', 'LightYellow', 'Yellow', 'Gold'],
+  greens = [ 'GreenYellow', 'Chartreuse', 'LawnGreen', 'Lime', 'LimeGreen', 'MediumSeaGreen', 'SeaGreen', 'DarkGreen', 'Green', 'ForestGreen', 'OliveDrab', 'DarkOliveGreen', 'Olive', 'YellowGreen', 'LightGreen', 'PaleGreen', 'SpringGreen', 'MediumSpringGreen', 'MintCream', 'Aquamarine', 'MediumAquaMarine', 'DarkSeaGreen', 'Honeydew', 'DarkCyan', 'Teal', 'LightSeaGreen'],
+  blues = [ 'DarkCyan', 'DarkTurquoise', 'MediumTurquoise', 'Turquoise', 'Cyan', 'Aqua', 'LightCyan', 'Azure', 'AliceBlue', 'SkyBlue', 'LightSkyBlue', 'DeepSkyBlue', 'DodgerBlue', 'Blue', 'MediumBlue', 'DarkBlue', 'Navy', 'MidnightBlue', 'RoyalBlue', 'CornflowerBlue', 'SteelBlue', 'DarkSlateGray', 'CadetBlue', 'LightBlue', 'PaleTurquoise', 'PowderBlue', 'LightSteelBlue', 'Lavender', 'MediumSlateBlue', 'SlateBlue'],
+  purplesandviolets = [ 'BlueViolet', 'DarkViolet', 'DarkOrchid', 'MediumOrchid', 'Orchid', 'Violet', 'Fuchsia', 'Magenta', 'DarkMagenta', 'Purple', 'Indigo', 'MediumPurple', 'Plum', 'Thistle'],
+  grays = [ 'Gainsboro', 'LightGray', 'Silver', 'DarkGray', 'Gray', 'DimGray', 'LightSlateGray', 'SlateGray', 'Black'],
+  whitesandbeiges = [ 'GhostWhite', 'AntiqueWhite', 'Beige', 'Bisque', 'BlanchedAlmond', 'Ivory', 'Linen', 'OldLace', 'PapayaWhip', 'Seashell', 'Snow', 'LavenderBlush', 'White', 'WhiteSmoke'],
+  browns = [ 'Brown', 'Chocolate', 'Peru', 'RosyBrown', 'SaddleBrown', 'DarkGoldenrod', 'Wheat'];
+// create a bunch of buttons
+  addColors(pinksandreds, '#pinksandreds');
+  addColors(orangesandyellows, '#orangesandyellows');
+  addColors(greens, '#greens');
+  addColors(blues, '#blues');
+  addColors(purplesandviolets, '#purplesandviolets');
+  addColors(grays, '#grays');
+  addColors(whitesandbeiges, '#whitesandbeiges');
+  addColors(browns, '#browns');
+
+
+// initialize the data-* properties and background colors based on the name.
+var buttons = $('button');
+buttons.each(function(index) {
+  var name = $(this).text();
+  $(this).css('background-color', name);
+
+  $(this).attr('data-state', 'name')
+  $(this).attr('data-name', name);
+
+  rgb = convertToRGBColor(name);
+  hex = convertRGBDecimalToHex(rgb);
+
+  $(this).attr('data-rgb', rgb);
+  $(this).attr('data-hex', hex);
+
+})
+
+$('button').click(function(e) {
+  var name = $(this).attr('data-name'),
+    hex = $(this).attr('data-hex'),
+    rgb = $(this).attr('data-rgb');
+
+  // get the current state.
+  var state = $(this).attr('data-state');
+
+  // examine the current state
+  switch(state) {
+    case 'name':
+    // name is currently shown, switch to hex
+    // update the element's text that is shown
+      $(this).text(hex);
+    // update the data-state attribute
+      $(this).attr('data-state', 'hex');
+    break;
+    case 'hex':
+    // hex currently shown, switch to rgb
+    // update the element's text that is shown
+      $(this).text(rgb);
+    //update the data-state attribute
+      $(this).attr('data-state', 'rgb');
+    break;
+    case 'rgb':
+    // rgb shown, switch back to name
+    // update the element's text that is shown
+      $(this).text(name);
+    //update the data-state attribute
+      $(this).attr('data-state', 'name');
+    break;
+  }
+
+});
+</script>
