@@ -12,8 +12,6 @@
     border: none;
   }
 
-
-
   .white button{
     color: darkgray;
   }
@@ -28,8 +26,6 @@
     margin-top: 20px;
   }
 
-
-
   /* Custom page CSS
   -------------------------------------------------- */
   /* Not required for template or sticky footer method. */
@@ -41,45 +37,45 @@
   }
 }
 
-.col-md-1 {
-    width: 155px;
-    height: 80px;
-    border-bottom-right-radius: 39px;
-    -webkit-border-bottom-right-radius: 39px;
-    -moz-border-bottom-right-radius: 39px;
-    border-bottom-right-radius: 39px;
-
-}
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait) {
   .col-md-1 {
-    width: 128px;
-    height: 80px;
-    -webkit-border-bottom-right-radius: 39px;
-    -moz-border-bottom-right-radius: 39px;
-    border-bottom-right-radius: 39px;
+      width: 155px;
+      height: 80px;
+      border-bottom-right-radius: 39px;
+      -webkit-border-bottom-right-radius: 39px;
+      -moz-border-bottom-right-radius: 39px;
+      border-bottom-right-radius: 39px;
   }
-  button {
-    font-size: 12px;
-  }
-}
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : landscape) {
-  .col-md-1 {
-    width: 156px;
-    height: 80px;
-    -webkit-border-bottom-right-radius: 39px;
-    -moz-border-bottom-right-radius: 39px;
-    border-bottom-right-radius: 39px;
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : portrait) {
+    .col-md-1 {
+      width: 128px;
+      height: 80px;
+      -webkit-border-bottom-right-radius: 39px;
+      -moz-border-bottom-right-radius: 39px;
+      border-bottom-right-radius: 39px;
+    }
+    button {
+      font-size: 12px;
+    }
   }
-  button {
-    font-size: 12px;
+
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : landscape) {
+    .col-md-1 {
+      width: 156px;
+      height: 80px;
+      -webkit-border-bottom-right-radius: 39px;
+      -moz-border-bottom-right-radius: 39px;
+      border-bottom-right-radius: 39px;
+    }
+    button {
+      font-size: 12px;
+    }
   }
 }
 
