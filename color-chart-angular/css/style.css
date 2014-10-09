@@ -24,6 +24,7 @@ hr {
 .btn-primary {
   background-color: coral;
   border-color: transparent;
+  border-radius: 15px;
 }
 
 .btn-primary.active, .btn-primary:hover {
