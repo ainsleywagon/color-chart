@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="colorApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Chart</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/ui-bootstrap-0.11.2.min.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+  <div class="container">
+    <div class="btn-group pull-right">
+        <label class="btn btn-primary" ng-model="radioModel" btn-radio="0">Name</label>
+        <label class="btn btn-primary" ng-model="radioModel" btn-radio="1">HEX</label>
+        <label class="btn btn-primary" ng-model="radioModel" btn-radio="2">RGB</label>
+    </div>
+
+    <h1>Color Chart</h1>
+    <p>CSS Namespace Colors in Rainbow Order</p>
+    <hr>
+
+    <div class="color-charts">
+      <div class="palette" ng-repeat="palette in colors">
+        <h1>{{palette.title}}</h1>
+        <div class="box" ng-repeat="color in palette.colorArray">
+          <div ng-style="{'background-color': color[1]}" class="color-box" >{{ color[radioModel] }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
