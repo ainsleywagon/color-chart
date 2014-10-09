@@ -1,0 +1,145 @@
+// this is for avoiding conflict with the ui-bootstrap library (do not touch)
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+h1, p {
+  margin-left: 10px;
+}
+
+hr {
+  width: 97%;
+}
+
+.btn-group{
+  margin-right: 20px;
+  margin-top: 25px;
+  z-index: 10000;
+}
+
+.btn-primary {
+  background-color: coral;
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+.btn-primary.active, .btn-primary:hover {
+  background-color: peru;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.color-box {
+    color: #fff;
+    width: 130px;
+    height: 60px;
+    margin: 15px;
+    border: none;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    float: left;
+}
+
+.palette h1 {
+  clear: both;
+}
+
+.controls {
+  position: fixed;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 100px;
+}
+#footer {
+  background-color: bisque;
+  margin-top: 20px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .credit {
+  margin: 40px 0;
+a {
+  color: darkgray;
+}
+}
+
+.color-box {
+    width: 155px;
+    height: 80px;
+    border-bottom-right-radius: 39px;
+    -webkit-border-bottom-right-radius: 39px;
+    -moz-border-bottom-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+}
+
+.btn-group {
+  position: fixed;
+  right: 100px;
+  top: 50px;
+}
+
+.page-header h1, p {
+  margin-left: 0px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .color-box {
+    width: 128px;
+    height: 80px;
+    -webkit-border-bottom-right-radius: 39px;
+    -moz-border-bottom-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+  }
+  .color-box {
+    font-size: 12px;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .color-box {
+    width: 156px;
+    height: 80px;
+    -webkit-border-bottom-right-radius: 39px;
+    -moz-border-bottom-right-radius: 39px;
+    border-bottom-right-radius: 39px;
+  }
+  .color-box {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lead {
+    display: none !important;
+  }
+  .btn-group {
+    right: 70px;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .btn-group {
+  }
+}
+
+.color-box:focus {outline:none;}
+
+.color-box:hover {box-shadow: 5px 5px 0px #ccc; outline:none;}
