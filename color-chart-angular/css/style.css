@@ -18,6 +18,7 @@ hr {
 .btn-group{
   margin-right: 20px;
   margin-top: 25px;
+  z-index: 10000;
 }
 
 .color-box {
@@ -71,8 +72,9 @@ a {
 }
 
 .btn-group {
-  margin-right: 50px;
-  margin-top: 40px;
+  position: fixed;
+  right: 100px;
+  top: 50px;
 }
 
 .page-header h1, p {
@@ -110,6 +112,20 @@ and (orientation : landscape) {
     font-size: 12px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .lead {
+    display: none !important;
+  }
+  .btn-group {
+    right: 70px;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .btn-group {
+  }
 }
 
 .color-box:focus {outline:none;}
