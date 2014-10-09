@@ -12,21 +12,24 @@
 </head>
 <body ng-controller="mainCtrl">
   <div class="container">
-    <div class="btn-group pull-right">
-        <label class="btn btn-primary" ng-model="radioModel" btn-radio="0">Name</label>
-        <label class="btn btn-primary" ng-model="radioModel" btn-radio="1">HEX</label>
-        <label class="btn btn-primary" ng-model="radioModel" btn-radio="2">RGB</label>
-    </div>
 
-    <h1>Color Chart</h1>
-    <p>CSS Namespace Colors in Rainbow Order</p>
-    <hr>
+    <div class="page-header">
+      <div class="btn-group pull-right">
+          <label class="btn btn-primary" ng-model="radioModel" btn-radio="0">Name</label>
+          <label class="btn btn-primary" ng-model="radioModel" btn-radio="1">HEX</label>
+          <label class="btn btn-primary" ng-model="radioModel" btn-radio="2">RGB</label>
+      </div>
+      <h1>Color Chart</h1>
+      <p class="lead">CSS Namespace Colors in Rainbow Order</p>
+    </div>
 
     <div class="color-charts">
       <div class="palette" ng-repeat="palette in colors">
-        <h1>{{palette.title}}</h1>
-        <div class="box" ng-repeat="color in palette.colorArray">
-          <div ng-style="{'background-color': color[1]}" class="color-box" >{{ color[radioModel] }}</div>
+        <h3>{{palette.title}}</h3>
+        <div class="row">
+          <div class="box" ng-repeat="color in palette.colorArray">
+            <div ng-style="{'background-color': color[1]}" class="color-box" >{{ color[radioModel] }}</div>
+          </div>
         </div>
       </div>
     </div>

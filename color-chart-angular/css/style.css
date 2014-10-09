@@ -70,6 +70,15 @@ a {
     border-bottom-right-radius: 39px;
 }
 
+.btn-group {
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.page-header h1, p {
+  margin-left: 0px;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
