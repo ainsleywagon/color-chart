@@ -18,6 +18,19 @@ hr {
 .btn-group{
   margin-right: 20px;
   margin-top: 25px;
+  z-index: 10000;
+}
+
+.btn-primary {
+  background-color: coral;
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+.btn-primary.active, .btn-primary:hover {
+  background-color: peru;
+  border-color: transparent;
+  box-shadow: none;
 }
 
 .color-box {
@@ -70,6 +83,16 @@ a {
     border-bottom-right-radius: 39px;
 }
 
+.btn-group {
+  position: fixed;
+  right: 100px;
+  top: 50px;
+}
+
+.page-header h1, p {
+  margin-left: 0px;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
@@ -101,6 +124,20 @@ and (orientation : landscape) {
     font-size: 12px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .lead {
+    display: none !important;
+  }
+  .btn-group {
+    right: 70px;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .btn-group {
+  }
 }
 
 .color-box:focus {outline:none;}
