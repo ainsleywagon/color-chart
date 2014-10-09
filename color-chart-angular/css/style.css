@@ -21,6 +21,17 @@ hr {
   z-index: 10000;
 }
 
+.btn-primary {
+  background-color: coral;
+  border-color: transparent;
+}
+
+.btn-primary.active, .btn-primary:hover {
+  background-color: peru;
+  border-color: transparent;
+  box-shadow: none;
+}
+
 .color-box {
     color: #fff;
     width: 130px;
