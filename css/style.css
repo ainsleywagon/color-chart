@@ -22,13 +22,13 @@ hr {
 }
 
 .btn-primary {
-  background-color: coral;
+  background-color: cornflowerblue;
   border-color: transparent;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .btn-primary.active, .btn-primary:hover {
-  background-color: peru;
+  background-color: royalblue;
   border-color: transparent;
   box-shadow: none;
 }
