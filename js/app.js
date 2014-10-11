@@ -3,10 +3,10 @@ angular.module('colorApp', ['ui.bootstrap'])
       $scope.radioModel = 0;
 
       $scope.colors = {
-        pinksandreds: {
+        1: {
             title: 'Pink & Reds',
             colorArray: [
-              [ 'MistyRose', '#FFE4E1', 'rgb(255,228,225)'],
+              ['MistyRose', '#FFE4E1', 'rgb(255,228,225)'],
               ['LigthPink','#FFB6C1', 'rgb(255,182,193)'],
               ['Pink','#FFC0CB', 'rgb(255,192,203)'],
               ['Hotpink', '#FF69B4', 'rgb(255,105,180)'],
@@ -15,7 +15,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['PaleVioletRed', '#DB7093','rgb(219,112,147)'],
               ['Red', '#FF0000','rgb(255,0,0)'],
               ['Crimson', '#DC143C','rgb(220,20,60)'],
-              ['Marron', '#800000','rgb(128,0,0)'],
+              ['Maroon', '#800000','rgb(128,0,0)'],
               ['DarkRed', '#8B0000','rgb(139,0,0)'],
               ['Brown', '#A52A2A','rgb(165,42,42)'],
               ['Firebrick', '#B22222','rgb(178,34,34)'],
@@ -29,7 +29,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['PeachPuff', '#FFDAB9','rgb(255,218,185)']
             ]
         },
-        orangesandyellows: {
+        2: {
             title: 'Oranges & Yellows',
             colorArray: [
               ['OrangeRed','#FF4500', 'rgb(255,69,0)'],
@@ -49,7 +49,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['Gold', '#FFD700','rgb(255,215,0)']
             ]
         },
-        greens: {
+        3: {
             title: 'Greens',
             colorArray: [
               ['GreenYellow','#ADFF2F', 'rgb(173, 255, 47)' ],
@@ -80,7 +80,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['LightSeaGreen','#20B2AA','rgb(32,178,170)']
             ]
         },
-        blues: {
+        4: {
             title: 'Blues',
             colorArray: [
               ['DarkCyan','#008B8B','rgb(0,139,139)'],
@@ -115,7 +115,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['SlateBlue','#6A5ACD','rgb(106,90,205)']
             ]
         },
-        purpleAndViolets: {
+        5: {
             title: 'Purples & Violets',
             colorArray: [
               ['BlueViolet','#8A2BE2','rgb(138,43,226)'],
@@ -134,7 +134,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['Thistle','#D8BFD8','rgb(216,191,216)']
             ]
         },
-        grays: {
+        6: {
             title: 'Grays',
             colorArray: [
               ['Gainsboro','#DCDCDC','rgb(220,220,220)'],
@@ -148,7 +148,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['Black','#000000','rgb(0,0,0)']
             ]
         },
-        whitesAndBeiges: {
+        7: {
             title: 'Whites & Beiges',
             colorArray: [
               ['GhostWhite','#F8F8FF','rgb(248,248,255)'],
@@ -167,7 +167,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['WhiteSmoke','#F5F5F5','rgb(245,245,245)']
             ]
         },
-        browns: {
+        8: {
             title: 'Browns',
             colorArray: [
               ['Brown','#A52A2A','rgb(165,42,42)'],
