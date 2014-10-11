@@ -12,6 +12,10 @@
     border: none;
   }
 
+  :focus {
+    outline: white;
+  }
+
   .white button{
     color: darkgray;
   }
