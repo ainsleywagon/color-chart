@@ -6,7 +6,7 @@ angular.module('colorApp', ['ui.bootstrap'])
         1: {
             title: 'Pink & Reds',
             colorArray: [
-              ['MistyRose', '#FFE4E1', 'rgb(255,228,225)'],
+              ['MistyRose.', '#FFE4E1', 'rgb(255,228,225)'],
               ['LightPink','#FFB6C1', 'rgb(255,182,193)'],
               ['Pink','#FFC0CB', 'rgb(255,192,203)'],
               ['Hotpink', '#FF69B4', 'rgb(255,105,180)'],

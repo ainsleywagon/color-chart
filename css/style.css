@@ -56,11 +56,12 @@ hr {
 /* Set the fixed height of the footer here */
 #push,
 #footer {
-  height: 100px;
+  height: 120px;
+  color: dimgray;
 }
 #footer {
-  background-color: bisque;
-  margin-top: 20px;
+  background-color: aquamarine;
+  margin-top: 70px;
 }
 
 /* Custom page CSS
@@ -140,6 +141,11 @@ and (orientation : landscape) {
   }
 }
 
-.color-box:focus {outline:none;}
+.color-box:focus {
+  outline:none;
+  }
 
-.color-box:hover {box-shadow: 5px 5px 0px #ccc; outline:none;}
+.color-box:hover {
+  box-shadow: 5px 5px 0px #ccc;
+  outline:none;
+  }

@@ -28,7 +28,7 @@
         <h3>{{palette.title}}</h3>
         <div class="row">
           <div class="box" ng-repeat="color in palette.colorArray">
-            <div ng-class="{'background-color': color[1]}" class="color-box" >{{ color[radioModel] }}</div>
+            <div ng-style="{'background-color': color[1]}" ng-model="black" class="color-box" >{{ color[radioModel] }}</div>
           </div>
         </div>
       </div>
@@ -36,7 +36,8 @@
   </div>
   <div id="footer">
     <div class="container">
-      <p class="muted credit">Made in 2014 by <strong><a href="http://ainsleywagoner.com">Ainsley Wagoner</a></strong> and <strong><a href="https://twitter.com/iaranzadi">Imanol Aranzadi</a></strong>.</p>
+      <p class="muted credit">This footer is Aquamarine. The name value buttons are Royalblue and Cornflowerblue.
+      <br>Made in 2014 by <strong><a href="http://ainsleywagoner.com">Ainsley Wagoner</a></strong> and <strong><a href="https://twitter.com/iaranzadi">Imanol Aranzadi</a></strong>.</p>
     </div>
   </div>
 </body>
