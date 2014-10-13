@@ -149,3 +149,11 @@ and (orientation : landscape) {
   box-shadow: 5px 5px 0px #ccc;
   outline:none;
   }
+
+.clarita {
+  color: white;
+}
+
+.obscura {
+  color: black;
+}
