@@ -99,6 +99,8 @@ a {
   margin-left: 0px;
 }
 
+/* This media queries are working in iphone portrait mode and landscape mode. */
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
