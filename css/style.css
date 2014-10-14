@@ -53,6 +53,11 @@ hr {
   position: fixed;
 }
 
+/* This is the class that will change the color property of light colors. */
+.oscurita {
+  color: #A9A9A9;
+}
+
 /* Set the fixed height of the footer here */
 #push,
 #footer {
@@ -149,11 +154,3 @@ and (orientation : landscape) {
   box-shadow: 5px 5px 0px #ccc;
   outline:none;
   }
-
-.clarita {
-  color: white;
-}
-
-.obscura {
-  color: black;
-}

@@ -2,6 +2,18 @@ angular.module('colorApp', ['ui.bootstrap'])
   .controller('mainCtrl', function($scope){
       $scope.radioModel = 0;
 
+      // This is the array with all the colors you wanna change, the function changeColor below will iterate each time looking for this colors.
+      $scope.lightColors = ['#FFE4E1','#FAFAD2','#FFFACD','#FFFFE0','#F5FFFA','#F0FFF0','#E0FFFF','#F0FFFF','#F0F8FF','#F8F8FF','#FFFFF0','#FFFAFA','#FFFFFF'];
+
+      // This fuction is for returning a new class for the colors that are too light to use color:white css property.
+      $scope.changeColor = function(color){
+        for (i=0; i<$scope.lightColors.length; i++) {
+        	if ($scope.lightColors[i] == color) {
+        		return "oscurita";
+        	}
+        }
+      };
+
       $scope.colors = {
         1: {
             title: 'Pink & Reds',
