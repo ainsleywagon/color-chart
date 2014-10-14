@@ -128,6 +128,7 @@ angular.module('colorApp', ['ui.bootstrap'])
               ['Magenta','#FF00FF','rgb(255,0,255)'],
               ['DarkMagenta','#8B008B','rgb(139,0,139)'],
               ['Purple','#800080','rgb(128,0,128)'],
+              ['RebeccaPurple','#663399','rgb(102,51,153)'],
               ['Indigo','#4B0082','rgb(75,0,130)'],
               ['MediumPurple','#9370DB','rgb(147,112,219)'],
               ['Plum','#DDA0DD','rgb(221,160,221)'],
