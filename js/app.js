@@ -1,4 +1,7 @@
-angular.module('colorApp', ['ui.bootstrap'])
+angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
+  // .config(['ngClipProvider', function(ngClipProvider) {
+  //   ngClipProvider.setPath("//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.1.6/ZeroClipboard.swf");
+  //   }])
   .controller('mainCtrl', function($scope){
       $scope.radioModel = 0;
 
@@ -13,6 +16,14 @@ angular.module('colorApp', ['ui.bootstrap'])
         	}
         }
       };
+
+      // $scope.fallback = function(copy) {
+      // window.prompt('Press cmd+c to copy the text below.', copy);
+      // };
+      //
+      // $scope.showMessage = function() {
+      //   console.log("clip-click works!");
+      // };
 
       $scope.colors = {
         1: {

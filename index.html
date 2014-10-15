@@ -5,9 +5,10 @@
   <title>CSS Color Chart</title>
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css">
-
   <script src="js/angular.min.js"></script>
   <script src="js/ui-bootstrap-0.11.2.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.1.6/ZeroClipboard.min.js"></script>
+  <script src="http://rawgit.com/asafdav/ng-clip/master/src/ngClip.js"></script>
   <script src="js/app.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,13 +23,14 @@
 </head>
 <body ng-controller="mainCtrl">
   <div class="container">
-
+    
     <div class="page-header">
       <div class="btn-group">
           <label class="btn btn-primary" ng-model="radioModel" btn-radio="0">Name</label>
           <label class="btn btn-primary" ng-model="radioModel" btn-radio="1">HEX</label>
           <label class="btn btn-primary" ng-model="radioModel" btn-radio="2">RGB</label>
       </div>
+
       <h1>CSS Color Chart</h1>
       <p class="lead">CSS Namespace Colors in Rainbow Order</p>
     </div>
@@ -38,9 +40,8 @@
         <h3>{{palette.title}}</h3>
         <div class="row">
           <div class="box" ng-repeat="color in palette.colorArray">
-            <div ng-style="{'background-color': color[1]}" ng-model="black" class="color-box" >
-              <span ng-class="{oscurita: changeColor(color[1])}"} 
->
+            <div clip-copy="color[radioModel]" ng-style="{'background-color': color[1]}" ng-model="black" class="color-box" >
+              <span ng-class="{oscurita: changeColor(color[1])}"}>
                     {{ color[radioModel] }}
               </span>
             </div>
