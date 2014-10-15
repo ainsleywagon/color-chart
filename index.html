@@ -39,7 +39,12 @@
         <h3>{{palette.title}}</h3>
         <div class="row">
           <div class="box" ng-repeat="color in palette.colorArray">
-            <div ng-style="{'background-color': color[1]}" ng-model="black" class="color-box" >{{ color[radioModel] }}</div>
+            <div ng-style="{'background-color': color[1]}" ng-model="black" class="color-box" >
+              <span ng-class="{oscurita: changeColor(color[1])}"} 
+>
+                    {{ color[radioModel] }}
+              </span>
+            </div>
           </div>
         </div>
       </div>

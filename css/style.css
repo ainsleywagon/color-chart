@@ -53,6 +53,11 @@ hr {
   position: fixed;
 }
 
+/* This is the class that will change the color property of light colors. */
+.oscurita {
+  color: #A9A9A9;
+}
+
 /* Set the fixed height of the footer here */
 #push,
 #footer {
@@ -93,6 +98,8 @@ a {
 .page-header h1, p {
   margin-left: 0px;
 }
+
+/* This media queries are working in iphone portrait mode and landscape mode. */
 
 @media only screen
 and (min-device-width : 320px)
@@ -149,11 +156,3 @@ and (orientation : landscape) {
   box-shadow: 5px 5px 0px #ccc;
   outline:none;
   }
-
-.clarita {
-  color: white;
-}
-
-.obscura {
-  color: black;
-}
