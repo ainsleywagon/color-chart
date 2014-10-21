@@ -25,8 +25,8 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
       //   console.log("clip-click works!");
       // };
 
-      $scope.colors = {
-        1: {
+      $scope.colors = [
+         {
             title: 'Pink & Reds',
             colorArray: [
               ['MistyRose.', '#FFE4E1', 'rgb(255,228,225)'],
@@ -52,7 +52,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['PeachPuff', '#FFDAB9','rgb(255,218,185)']
             ]
         },
-        2: {
+         {
             title: 'Oranges & Yellows',
             colorArray: [
               ['OrangeRed','#FF4500', 'rgb(255,69,0)'],
@@ -72,7 +72,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['Gold', '#FFD700','rgb(255,215,0)']
             ]
         },
-        3: {
+         {
             title: 'Greens',
             colorArray: [
               ['GreenYellow','#ADFF2F', 'rgb(173, 255, 47)' ],
@@ -103,7 +103,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['LightSeaGreen','#20B2AA','rgb(32,178,170)']
             ]
         },
-        4: {
+         {
             title: 'Blues',
             colorArray: [
               ['DarkCyan','#008B8B','rgb(0,139,139)'],
@@ -138,7 +138,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['SlateBlue','#6A5ACD','rgb(106,90,205)']
             ]
         },
-        5: {
+         {
             title: 'Purples & Violets',
             colorArray: [
               ['BlueViolet','#8A2BE2','rgb(138,43,226)'],
@@ -158,7 +158,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['Thistle','#D8BFD8','rgb(216,191,216)']
             ]
         },
-        6: {
+         {
             title: 'Grays',
             colorArray: [
               ['Gainsboro','#DCDCDC','rgb(220,220,220)'],
@@ -172,7 +172,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['Black','#000000','rgb(0,0,0)']
             ]
         },
-        7: {
+         {
             title: 'Whites & Beiges',
             colorArray: [
               ['GhostWhite','#F8F8FF','rgb(248,248,255)'],
@@ -191,7 +191,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['WhiteSmoke','#F5F5F5','rgb(245,245,245)']
             ]
         },
-        8: {
+         {
             title: 'Browns',
             colorArray: [
               ['Brown','#A52A2A','rgb(165,42,42)'],
@@ -203,7 +203,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['Wheat','#F5DEB3','rgb(245,222,170)']
             ]
         }
-      };
+      ];
 
 
 

@@ -24,7 +24,7 @@
 </head>
 <body ng-controller="mainCtrl">
   <div class="container">
-    
+
     <div class="page-header">
       <div class="btn-group">
           <label class="btn btn-primary" ng-model="radioModel" btn-radio="0">Name</label>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="color-charts">
-      <div class="palette" ng-repeat="palette in colors">
+      <div class="palette" ng-repeat="palette in colors"> <!--this is Angular code-->
         <h3>{{palette.title}}</h3>
         <div class="row">
           <div class="box" ng-repeat="color in palette.colorArray">
