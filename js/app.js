@@ -29,7 +29,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
          {
             title: 'Pink & Reds',
             colorArray: [
-              ['MistyRose.', '#FFE4E1', 'rgb(255,228,225)'],
+              ['MistyRose', '#FFE4E1', 'rgb(255,228,225)'],
               ['LightPink','#FFB6C1', 'rgb(255,182,193)'],
               ['Pink','#FFC0CB', 'rgb(255,192,203)'],
               ['Hotpink', '#FF69B4', 'rgb(255,105,180)'],
@@ -133,7 +133,7 @@ angular.module('colorApp', ['ui.bootstrap', 'ngClipboard'])
               ['PaleTurquoise','#AFEEEE','rgb(175,238,238)'],
               ['PowderBlue','#B0E0E6','rgb(176,224,230)'],
               ['LightSteelBlue','#B0C4DE','rgb(176,196,222)'],
-              ['Lavander','#E6E6FA','rgb(230,230,250)'],
+              ['Lavender','#E6E6FA','rgb(230,230,250)'],
               ['MediumSlateBlue','#7B68EE','rgb(123,104,238)'],
               ['SlateBlue','#6A5ACD','rgb(106,90,205)']
             ]
