@@ -36,10 +36,10 @@
 
   .container .credit {
     margin: 40px 0;
+  }
   a {
     color: darkgray;
   }
-}
 
   .col-md-1 {
       width: 155px;
@@ -81,7 +81,6 @@
       font-size: 12px;
     }
   }
-}
 
 button:focus {outline:none;}
 
