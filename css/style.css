@@ -1,4 +1,4 @@
-// this is for avoiding conflict with the ui-bootstrap library (do not touch)
+/* this is for avoiding conflict with the ui-bootstrap library (do not touch) */
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
@@ -75,9 +75,9 @@ hr {
 
 .container .credit {
   margin: 40px 0;
+}
 a {
   color: darkgray;
-}
 }
 
 .color-box {
@@ -140,11 +140,6 @@ and (orientation : landscape) {
   .btn-group {
     right: 70px;
     top: 20px;
-  }
-}
-
-@media only screen and (max-width: 476px) {
-  .btn-group {
   }
 }
 
